@@ -28,7 +28,6 @@ A stylish and interactive product selection interface that allows users to choos
 ## Preview
 
 ![BOGO Product Selection Screenshot](./Preview.png)
-> _Add a screenshot of the project here if available_
 
 ## Getting Started
 
