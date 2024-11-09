@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BOGO Offer</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h2 class="title">YAY! It’s BOGO</h2>
+
+      <!-- 1 Unit Option -->
+      <div class="option" id="option-1">
+        <label class="radio-container">
+          <input
+            type="radio"
+            name="unit"
+            onclick="selectOption(10, 'option-1')"
+          />
+          <span>1 Unit</span>
+          <span class="discount">10% Off</span>
+          <span class="price">$10.00 USD</span>
+          <span class="original-price">$24.00 USD</span>
+          <p class="standard-price">Standard Price</p>
+        </label>
+        <div class="selection" style="display: none">
+          <div>
+            <div class="dropdown-group">
+              <label>Size</label>
+              <select>
+                <option value="S">S</option>
+                <option value="M">M</option>
+                <option value="L">L</option>
+              </select>
+              <label>Colour</label>
+              <select>
+                <option value="Black">Black</option>
+                <option value="White">White</option>
+                <option value="Red">Red</option>
+              </select>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- 2 Unit Option -->
+      <div class="option popular" id="option-2">
+        <label class="radio-container">
+          <input
+            type="radio"
+            name="unit"
+            onclick="selectOption(18, 'option-2')"
+          />
+          <span>2 Unit</span>
+          <span class="discount">20% Off</span>
+          <span class="badge">Most Popular</span>
+          <span class="price">$18.00 USD</span>
+          <span class="original-price">$24.00 USD</span>
+        </label>
+        <div class="selection" style="display: none">
+          <div>
+            <div class="dropdown-group">
+              <label>Size</label>
+              <select>
+                <option value="S">S</option>
+                <option value="M">M</option>
+                <option value="L">L</option>
+              </select>
+              <label>Colour</label>
+              <select>
+                <option value="Black">Black</option>
+                <option value="White">White</option>
+                <option value="Red">Red</option>
+              </select>
+            </div>
+          </div>
+          <div>
+            <div class="dropdown-group">
+              <label>Size</label>
+              <select>
+                <option value="S">S</option>
+                <option value="M">M</option>
+                <option value="L">L</option>
+              </select>
+              <label>Colour</label>
+              <select>
+                <option value="Black">Black</option>
+                <option value="White">White</option>
+                <option value="Red">Red</option>
+              </select>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- 3 Unit Option -->
+      <div class="option" id="option-3">
+        <label class="radio-container">
+          <input
+            type="radio"
+            name="unit"
+            onclick="selectOption(24, 'option-3')"
+          />
+          <span>3 Unit</span>
+          <span class="discount">30% Off</span>
+          <span class="price">$24.00 USD</span>
+          <span class="original-price">$24.00 USD</span>
+        </label>
+        <div class="selection" style="display: none">
+          <div>
+            <div class="dropdown-group">
+              <label>Size</label>
+              <select>
+                <option value="S">S</option>
+                <option value="M">M</option>
+                <option value="L">L</option>
+              </select>
+              <label>Colour</label>
+              <select>
+                <option value="Black">Black</option>
+                <option value="White">White</option>
+                <option value="Red">Red</option>
+              </select>
+            </div>
+          </div>
+          <div>
+            <div class="dropdown-group">
+              <label>Size</label>
+              <select>
+                <option value="S">S</option>
+                <option value="M">M</option>
+                <option value="L">L</option>
+              </select>
+              <label>Colour</label>
+              <select>
+                <option value="Black">Black</option>
+                <option value="White">White</option>
+                <option value="Red">Red</option>
+              </select>
+            </div>
+          </div>
+          <div>
+            <div class="dropdown-group">
+              <label>Size</label>
+              <select>
+                <option value="S">S</option>
+                <option value="M">M</option>
+                <option value="L">L</option>
+              </select>
+              <label>Colour</label>
+              <select>
+                <option value="Black">Black</option>
+                <option value="White">White</option>
+                <option value="Red">Red</option>
+              </select>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer">
+        <div class="footer-section">
+          <p class="delivery">Free Delivery</p>
+          <p>Total: <span id="total-price">$0.00 USD</span></p>
+        </div>
+        <button onclick="addToCart()">+ Add to Cart</button>
+        <p class="powered-by">@ Powered by Pumper</p>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
